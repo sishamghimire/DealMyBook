@@ -1,0 +1,40 @@
+<div class="row">
+<div class="card-top container-fluid">
+  <div class="container d-flex">
+    <div class="item">
+      <a (click)="filter('')">
+        <img src="" alt="">
+        <h6>All products</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a (click)="filter('novel')">
+        <img src="https://en.wikipedia.org/wiki/Seto_Dharti#/media/File:Seto_Dharti_by_Amar_Neupane.jpg" alt="">
+        <h6>Novel</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a (click)="filter('text-book')">
+        <img src="D:\angular-13-login-registration-example-master\src\assets\image\textbooks.png"
+            style="width: 62px; margin-top: 5px;" alt="">
+        <h6>Text-book</h6>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--<div class="container">-->
+<!--  <div class="row">-->
+<!--    <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">-->
+<!--      <div class="card col-md-3">-->
+<!--        <img src="{{item.image}}" alt="">-->
+<!--        <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>-->
+<!--        <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>-->
+<!--        <p><strong>Price:</strong> ${{item.price}}</p>-->
+<!--        <button class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>-->
+<!--      </div>-->
+<!--    </ng-container>-->
+
+<!--  </div>-->
+<!--</div>-->
